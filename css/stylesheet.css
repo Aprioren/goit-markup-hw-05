@@ -25,6 +25,7 @@
     --modal-bg-color: rgba(0, 0, 0, 0.2);
     --animation-time: cubic-bezier(0.4, 0, 0.2, 1);
     --overlay-bg-color: rgba(47, 48, 58, 0.8);
+    --gradient-hero-color: #2F303A66;
 }
 
 /* body */
@@ -311,7 +312,7 @@ header{
     max-width: 1600px;
     height: 600px;
    
-    background-image: url(../images/hero-background.jpg);
+    background-image: linear-gradient(to right, var(--gradient-hero-color), var(--gradient-hero-color)), url(../images/hero-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -651,6 +652,7 @@ header{
 }
 
 .our-team-item{
+    background-color: var(--primary-white-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
      0px 1px 1px rgba(0, 0, 0, 0.14), 
      0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -762,7 +764,7 @@ header{
     width: 100%;
     height: 100%; 
 
-    color: var(--secondary-text-color);
+    color: var(--clients-border-color);
     border: 1px solid var(--clients-border-color);
     border-radius: 4px;
 
