@@ -129,8 +129,8 @@ header{
     top:8px;
     right: 8px;
 
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     background-color: var(--primary-white-color);
 
     border-radius:50%;
@@ -671,8 +671,8 @@ header{
 }
 .icons{
     list-style: none;
-    width: 44px;
-    height: 44px;
+    width: 50px;
+    height: 50px;
     /* border: 1px solid black; */
 }
 
